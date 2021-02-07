@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">The story</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -56,13 +56,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="work"
-          className={`${this.props.article === 'work' ? 'active' : ''} ${
+          id="variations"
+          className={`${this.props.article === 'variations' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Variations</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -85,13 +85,13 @@ class Main extends React.Component {
         </article>
 
         <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
+          id="inspiration"
+          className={`${this.props.article === 'inspiration' ? 'active' : ''} ${
             this.props.articleTimeout ? 'timeout' : ''
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Inspiration</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
